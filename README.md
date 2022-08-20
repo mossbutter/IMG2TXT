@@ -1,6 +1,12 @@
 # IMG2TXT
 Python script using opencv+tesseract that reads images and spits the output into a .txt file.
 
+## Prerequisites:
+Python3
+tesseract OCR https://github.com/tesseract-ocr/tesseract
+openCV https://opencv.org/
+
+
 ## Set-up:
 Change the tesseract directory, yours may be the same 
 ```
@@ -20,6 +26,7 @@ After updating your directories, make sure the script.py and images are in the s
 Run the script and the text will display in your terminal, and in your **output.txt** file.
 
 ### Tips:
+- you will have to change the image directory everytime you want to read a new image
 - this is still in active development
 - the text will overwrite itself in **output.txt**
 - works better with larger resolution images
