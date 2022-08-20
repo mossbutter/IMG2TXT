@@ -10,7 +10,7 @@ openCV https://opencv.org/
 
 
 ## Set-up:
-Change the tesseract directory, yours may be the same 
+In script.py, change the tesseract directory, yours may be the same 
 ```
 pytesseract.pytesseract.tesseract_cmd=r'/usr/bin/tesseract'
 ```
