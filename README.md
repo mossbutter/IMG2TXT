@@ -3,7 +3,9 @@ Python script using opencv+tesseract that reads images and spits the output into
 
 ## Prerequisites:
 Python3
+
 tesseract OCR https://github.com/tesseract-ocr/tesseract
+
 openCV https://opencv.org/
 
 
